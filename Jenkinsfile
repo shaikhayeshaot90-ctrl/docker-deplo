@@ -2,8 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "ayeshashaikh07/demo-jenkins-app
-"
+        DOCKER_IMAGE = "ayeshashaikh07/demo-jenkins-app"
     }
 
     stages {
