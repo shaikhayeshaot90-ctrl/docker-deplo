@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "msmengr/demo-jenkins-app"
+        DOCKER_IMAGE = "ayeshashaikh07/demo-jenkins-app
+"
     }
 
     stages {
@@ -10,7 +11,7 @@ pipeline {
         stage('Clone Repo') {
             steps {
                 sh 'rm -rf docker-deplo'
-                sh 'git clone https://github.com/Mudassir-dev0ps/docker-deplo.git'
+                sh 'git clone https://github.com/shaikhayeshaot90-ctrl/docker-deplo.git'
             }
         }
 
